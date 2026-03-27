@@ -1,0 +1,19 @@
+name: bioinfo
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - tqdm
+  - pyyaml
+  - scikit-learn
+  - jupyter
+  - xgboost
+  - pandas
+  - scipy
+  - seaborn
+  - lightgbm
+  - openpyxl
+  - ipykernel
+  - matplotlib
+  - numpy
+prefix: C:\Users\Oscar\anaconda3\envs\bioinfo
