@@ -1,0 +1,11 @@
+data/*.csv
+data/*.tsv
+data/*.biom
+*.h5
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.env
+kaggle.json
+.DS_Store
+Thumbs.db
