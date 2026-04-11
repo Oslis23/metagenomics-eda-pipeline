@@ -1,6 +1,14 @@
 # Metagenomics EDA Pipeline
 
+![Status: In Progress](https://img.shields.io/badge/Status-In%20Progress-yellow) ![Phase: 1 — EDA Complete](https://img.shields.io/badge/Phase%201-EDA%20Complete-blue)
+
 Exploratory analysis of gut microbiome 16S rRNA data from a colorectal cancer cohort (59 samples: Healthy, Adenomatous Polyps, Colorectal Cancer). The pipeline covers data loading, alpha/beta diversity, and phylum-level differential abundance, building toward ASV-level machine learning classification.
+
+## Dataset
+
+Data processed from the **CRC Gut Microbiome 16S rRNA** dataset (Kaggle).  
+Source: [https://www.kaggle.com/datasets/antaresnyc/human-gut-microbiome-with-cancer](https://www.kaggle.com/datasets/antaresnyc/human-gut-microbiome-with-cancer)  
+Sequences were processed with DADA2; exported outputs (`seqtab_nochim`, `taxa_species`) are included in `data/`.
 
 ## Tech Stack
 - Python 3.11 (Anaconda)
@@ -15,7 +23,8 @@ Exploratory analysis of gut microbiome 16S rRNA data from a colorectal cancer co
 | 01 | `01_data_loading.ipynb` | Data loading, QC, sparsity analysis, phylum composition barplot and heatmap |
 | 02 | `02_alpha_diversity.ipynb` | Observed species, Shannon, Simpson, Chao1 — normality tests, Kruskal-Wallis, Mann-Whitney |
 | 03 | `03_beta_diversity.ipynb` | Bray-Curtis dissimilarity, PCoA (2D + 3D), PERMANOVA with post-hoc pairwise tests |
-| 04 | `04_diversity_analysis.ipynb` | Phylum-level relative abundance — boxplots, bar charts, Kruskal-Wallis + Mann-Whitney |
+| 04 | `04_phylum_abundance.ipynb` | Phylum-level relative abundance — boxplots, bar charts, Kruskal-Wallis + Mann-Whitney |
+| 05 | `05_machine_learning_and_classification.ipynb` | ASV-level ML classification — regularization tuning, model comparison, convergence analysis |
 
 ## Key Findings
 
