@@ -1,11 +1,13 @@
 name: bioinfo
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python=3.11
   - tqdm
   - pyyaml
   - scikit-learn
+  - scikit-bio
   - jupyter
   - xgboost
   - pandas
@@ -16,4 +18,6 @@ dependencies:
   - ipykernel
   - matplotlib
   - numpy
-prefix: C:\Users\Oscar\anaconda3\envs\bioinfo
+  - pip
+  - pip:
+    - shap

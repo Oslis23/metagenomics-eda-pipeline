@@ -2,14 +2,14 @@
 
 ## 📊 About This Dataset
 
-This dataset contains **processed gut microbiome data** from 60 samples for **Colorectal Cancer (CRC) detection** using machine learning. The data is derived from 16S rRNA gene sequencing and has been preprocessed using the DADA2 pipeline.
+This dataset contains **processed gut microbiome data** from 59 samples for **Colorectal Cancer (CRC) detection** using machine learning. The data is derived from 16S rRNA gene sequencing and has been preprocessed using the DADA2 pipeline.
 
 ## 📁 Files Included
 
 ### 1. `seqtab_nochim_export.xlsx` (1.4 MB)
 
 - **ASV (Amplicon Sequence Variant) abundance table**
-- Rows: Patient samples (60 samples)
+- Rows: Patient samples (59 samples)
 - Columns: DNA sequences (ASVs) representing different bacterial species
 - Values: Read counts (how many times each bacteria was detected)
 
