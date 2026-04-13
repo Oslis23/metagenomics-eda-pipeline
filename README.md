@@ -7,7 +7,7 @@ Exploratory analysis of gut microbiome 16S rRNA data from a colorectal cancer co
 ## Dataset
 
 Data processed from the **CRC Gut Microbiome ML Data** dataset.  
-Source: [CRC Gut Microbiome ML Data](https://share.google/oCbsNQjNvR7DZJnOm)  
+Source: [CRC Gut Microbiome ML Data](https://www.kaggle.com/datasets/aramelheni/crc-gut-microbiome-ml-data)  
 Sequences were processed with DADA2; exported outputs (`seqtab_nochim`, `taxa_species`) are included in `data/`.
 
 ## Tech Stack
