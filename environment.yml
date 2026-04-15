@@ -16,4 +16,3 @@ dependencies:
   - ipykernel
   - matplotlib
   - numpy
-prefix: C:\Users\Oscar\anaconda3\envs\bioinfo
